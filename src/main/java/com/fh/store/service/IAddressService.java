@@ -44,6 +44,9 @@ public interface IAddressService {
      * @return 匹配的收货地址详情
      */
     Address getByAid(Integer aid, Integer uid);
+    /**
+     *
+     */
 }
 
 
